@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RewIt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_call">Call</string>
+    <string name="action_website">Website</string>
+    <string name="action_place">Place</string>
+    <string name="btn1A1">Trova</string>
+    <string name="app_id">398000133697396</string>
+    <string name="btn3A1">Recensisci</string>
+    <string name="title_activity_search_entity">SearchEntity</string>
+    <string name="search">Cerca</string>
+    <string name="title_activity_entity_list">EntityList</string>
+    <string name="error1">Inserire un termine per la ricerca!</string>
+    <string name="lbl1SearchEntity">Suggerimenti</string>
+    <string name="title_activity_entity">Entity</string>
+    <string name="btnSendEntity">Invia!</string>
+    <string name="AlertLocalizationTitle">Servizi di localizzazione</string>
+    <string name="AlertLocalizationMessage">Per un utilizzo ottimale dell\'app si consiglia di abilitare i
+        servizi di localizzazione.Vuoi abilitarli?"</string>
+    <string name="AlertLocalizationPositiveButtonLabel">Impostazioni</string>
+    <string name="AlertLocalizationNegativeButtonLabel">No</string>
+    <string name="AlertConnectionTitle">Connessione a internet richiesta</string>
+    <string name="AlertConnectionMessage">Per proseguire e\' necessaria la connessione a internet.Vuoi abilitare il WiFi?</string>
+    <string name="AlertConnectionPositiveButtonLabel">Impostazioni</string>
+    <string name="AlertConnectionNegativeButtonLabel">No</string>
+    <string name="update">Aggiorna</string>
+    <string name="cancel">Annulla</string>
+    <string name="title_activity_db_review_list">DbReviewList</string>
+    <string name="fbLocationNotDefined">Per la visualizzazione della classifica locale devi autorizzare FB ad accedere ai dati relativi alla tua città attuale!</string>
+    <string name="emptyLocalLeaderboard">La classifica della tua città è attualmente vuota!</string>
+    <string name="noLocationServices">Attiva i servizi di localizzazione per la visualizzazione dei suggerimenti!</string>
+
+    <string-array name="nav_draw_logged_items">
+        <item>Home</item>
+        <item>Ricerca</item>
+        <item>Lista obiettivi</item>
+        <item>Classifiche</item>
+        <item>Classifica locale</item>
+        <item>Recensisci</item>
+    </string-array>
+    <string-array name="nav_draw_not_logged_items">
+        <item>Home</item>
+        <item>Ricerca</item>
+        <item>Lista obiettivi</item>
+        <item>Classifiche</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="signin_other_error">Problema con il login!</string>
+    <string name="leaderboard_id">CgkIy4PXs7oOEAIQBg</string>
+    <string name="achievement1_id">CgkIy4PXs7oOEAIQAQ</string>
+    <string name="achievement2_id">CgkIy4PXs7oOEAIQAg</string>
+    <string name="achievement3_id">CgkIy4PXs7oOEAIQAw</string>
+    <string name="achievement4_id">CgkIy4PXs7oOEAIQBA</string>
+    <string name="achievement5_id">CgkIy4PXs7oOEAIQCg</string>
+    <string name="achievement6_id">CgkIy4PXs7oOEAIQCA</string>
+    <string name="achievement7_id">CgkIy4PXs7oOEAIQCQ</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

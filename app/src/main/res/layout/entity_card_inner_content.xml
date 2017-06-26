@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Entity name"
+        android:id="@+id/textView27"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_marginLeft="5dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar4"
+        style = "?android:attr/ratingBarStyleSmall"
+        android:layout_below="@+id/textView29"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(Avg)"
+        android:id="@+id/textView28"
+        android:layout_alignParentTop="false"
+        android:layout_toRightOf="@+id/ratingBar4"
+        android:layout_alignBottom="@+id/ratingBar4"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Address"
+        android:id="@+id/textView29"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textView27"
+        android:layout_toRightOf="@+id/imageView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView30"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/ratingBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tot:"
+        android:id="@+id/textView31"
+        android:layout_alignParentTop="false"
+        android:layout_toLeftOf="@+id/textView30"
+        android:layout_alignBottom="@+id/ratingBar4"
+        android:layout_marginRight="3dp" />
+</RelativeLayout>

@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- Use same ID to use built-in features -->
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Grand Hotel Fagiano S. R. L."
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Via Appia Lato Napoli, 80, Formia"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Media Voti:"
+        android:id="@+id/textView7"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="false" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:isIndicator="true" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/stella" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                app:backgroundPadding="0dp"
+                app:backgroundRadius="2dp"
+                app:backgroundColor="@color/LightGrey"
+                app:progressColor="@color/custom_progress_red_progress"
+                app:progress="70"
+                app:max="100"
+                android:layout_below="@+id/tableLayout"
+                android:id="@+id/progressBar4"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="8"
+                android:id="@+id/textView9"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2"
+                android:id="@+id/textView10"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/stella" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                app:backgroundPadding="0dp"
+                app:backgroundRadius="2dp"
+                app:backgroundColor="@color/LightGrey"
+                app:progressColor="@color/custom_progress_red_progress"
+                app:progress="70"
+                app:max="100"
+                android:layout_below="@+id/tableLayout"
+                android:id="@+id/progressBar5"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3"
+                android:id="@+id/textView11"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/stella" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                app:backgroundPadding="0dp"
+                app:backgroundRadius="2dp"
+                app:backgroundColor="@color/LightGrey"
+                app:progressColor="@color/custom_progress_orange_progress"
+                app:progress="15"
+                app:max="100"
+                android:layout_below="@+id/tableLayout"
+                android:id="@+id/progressBar6"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="13"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4"
+                android:id="@+id/textView14"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/stella" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                app:backgroundPadding="0dp"
+                app:backgroundRadius="2dp"
+                app:backgroundColor="@color/LightGrey"
+                app:progressColor="@color/custom_progress_green_progress"
+                app:progress="70"
+                app:max="100"
+                android:layout_below="@+id/tableLayout"
+                android:id="@+id/progressBar7"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="57"
+                android:id="@+id/textView15"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="5"
+                android:id="@+id/textView16"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/stella" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                app:backgroundPadding="0dp"
+                app:backgroundRadius="2dp"
+                app:backgroundColor="@color/LightGrey"
+                app:progressColor="@color/custom_progress_green_progress"
+                app:progress="30"
+                app:max="100"
+                android:layout_below="@+id/tableLayout"
+                android:id="@+id/progressBar8"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="66"
+                android:id="@+id/textView17"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4.7"
+        android:id="@+id/textView18"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_marginLeft="5dp" />
+
+
+</RelativeLayout>

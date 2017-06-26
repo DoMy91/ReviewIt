@@ -1,0 +1,370 @@
+{
+ "kind": "discovery#restDescription",
+ "etag": "\"c05bU6zpvXPOpQakG5gG3IOJh8Y/N1DkyNWbK_g3MXSi_NhM7g3z-k4\"",
+ "discoveryVersion": "v1",
+ "id": "myApi:v1",
+ "name": "myApi",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "rewit.domy.example.com",
+ "ownerName": "rewit.domy.example.com",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rest",
+ "baseUrl": "https://myApplicationId.appspot.com/_ah/api/myApi/v1/",
+ "basePath": "/_ah/api/myApi/v1/",
+ "rootUrl": "https://myApplicationId.appspot.com/_ah/api/",
+ "servicePath": "myApi/v1/",
+ "batchPath": "batch",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "auth": {
+  "oauth2": {
+   "scopes": {
+    "https://www.googleapis.com/auth/userinfo.email": {
+     "description": "View your email address"
+    }
+   }
+  }
+ },
+ "schemas": {
+  "EntityListBean": {
+   "id": "EntityListBean",
+   "type": "object",
+   "properties": {
+    "list": {
+     "type": "array",
+     "items": {
+      "$ref": "JsonMap"
+     }
+    },
+    "result": {
+     "type": "string"
+    }
+   }
+  },
+  "JsonMap": {
+   "id": "JsonMap",
+   "type": "object"
+  },
+  "LeaderboardBean": {
+   "id": "LeaderboardBean",
+   "type": "object",
+   "properties": {
+    "list": {
+     "type": "array",
+     "items": {
+      "$ref": "JsonMap"
+     }
+    },
+    "result": {
+     "type": "string"
+    },
+    "userNumRev": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "user_position": {
+     "type": "integer",
+     "format": "int32"
+    }
+   }
+  },
+  "MyBean": {
+   "id": "MyBean",
+   "type": "object",
+   "properties": {
+    "data": {
+     "type": "string"
+    },
+    "values": {
+     "type": "array",
+     "items": {
+      "$ref": "JsonMap"
+     }
+    }
+   }
+  },
+  "ReviewBean": {
+   "id": "ReviewBean",
+   "type": "object",
+   "properties": {
+    "date": {
+     "type": "string"
+    },
+    "description": {
+     "type": "string"
+    },
+    "result": {
+     "type": "string"
+    },
+    "valutation": {
+     "type": "integer",
+     "format": "int32"
+    }
+   }
+  },
+  "ReviewListBean": {
+   "id": "ReviewListBean",
+   "type": "object",
+   "properties": {
+    "avg": {
+     "type": "number",
+     "format": "float"
+    },
+    "list": {
+     "type": "array",
+     "items": {
+      "$ref": "JsonMap"
+     }
+    },
+    "ratings": {
+     "$ref": "JsonMap"
+    },
+    "result": {
+     "type": "string"
+    },
+    "totalRev": {
+     "type": "integer",
+     "format": "int32"
+    }
+   }
+  }
+ },
+ "methods": {
+  "getListReview": {
+   "id": "myApi.getListReview",
+   "path": "reviewlistbean/{placeID}",
+   "httpMethod": "GET",
+   "parameters": {
+    "placeID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "placeID"
+   ],
+   "response": {
+    "$ref": "ReviewListBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "insertReview": {
+   "id": "myApi.insertReview",
+   "path": "reviewbean/{placeID}/{userID}/{valutation}/{description}",
+   "httpMethod": "POST",
+   "parameters": {
+    "description": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "placeID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "valutation": {
+     "type": "integer",
+     "required": true,
+     "format": "int32",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "placeID",
+    "userID",
+    "valutation",
+    "description"
+   ],
+   "response": {
+    "$ref": "ReviewBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "nearbyEntityList": {
+   "id": "myApi.nearbyEntityList",
+   "path": "NearbyEntity/{placeID}",
+   "httpMethod": "POST",
+   "parameters": {
+    "placeID": {
+     "type": "string",
+     "required": true,
+     "repeated": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "placeID"
+   ],
+   "response": {
+    "$ref": "EntityListBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "registerUser": {
+   "id": "myApi.registerUser",
+   "path": "registerUser/{userID}/{userFullname}/{userLocation}/{photoLink}",
+   "httpMethod": "POST",
+   "parameters": {
+    "photoLink": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userFullname": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userLocation": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "userID",
+    "userFullname",
+    "userLocation",
+    "photoLink"
+   ],
+   "response": {
+    "$ref": "MyBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "retrieveLocalLeaderboard": {
+   "id": "myApi.retrieveLocalLeaderboard",
+   "path": "RetrieveLocalLeaderboard/{userID}/{userLocation}",
+   "httpMethod": "POST",
+   "parameters": {
+    "userID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userLocation": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "userID",
+    "userLocation"
+   ],
+   "response": {
+    "$ref": "LeaderboardBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "updateReview": {
+   "id": "myApi.updateReview",
+   "path": "mybean/{placeID}/{userID}/{valutation}/{description}",
+   "httpMethod": "PUT",
+   "parameters": {
+    "description": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "placeID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "userID": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    },
+    "valutation": {
+     "type": "integer",
+     "required": true,
+     "format": "int32",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "placeID",
+    "userID",
+    "valutation",
+    "description"
+   ],
+   "response": {
+    "$ref": "MyBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  }
+ }
+}

@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.domy.rewit.SearchEntity">
+    <LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0px" android:layout_height="0px"/>
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/search"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:nextFocusUp="@id/autoCompleteTextView" android:nextFocusLeft="@id/autoCompleteTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lbl1SearchEntity"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView9"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:focusable="false" />
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:cpb_colors="@array/gplus_colors"
+        android:id="@+id/progressBar2"
+        android:indeterminate="true"
+        app:cpb_stroke_width="3dp"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/powered_by_google_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nearby"
+        android:id="@+id/textView24"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toLeftOf="@+id/checkBox"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="-5dp" />
+</RelativeLayout>

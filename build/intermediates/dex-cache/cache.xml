@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-4d73a45d5703cc842229001e73997735f5e08e6f.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-d647e681375103c669f10b1fb2329f9cb1dd3b65.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-core/2.0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="81d6467247ced8a5d51f8ff73a6595d517eddba6">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-9e9280d6151f3f94a42e7c0da47d72ebc668eaa2.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-cards/2.0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="d851788f6c23d14aa5fa8fbfd6d1b17725ad44c5">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-eea217a467a1aae808592522bfa9fd78f4c66d1f.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/android-query-full.0.26.8.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="5ab405d9f4eaf5ddd615967cd35650657b758d40">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/android-query-full.0.26.8-95e9c1f4d895589123a85eab08e71424f8f5e696.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="af42295aa45b7d53a2b622d06e087f0ea20e5351">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-3222cc2e00cb7be38ee145618361371f55d901e0.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-3ce6250a5989d1aa1321961631ab4a6816290fe2.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-6a17651fc795a78677ea7ec5cff357a9d3534e45.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-36ed114e51b48d34324661c4522f749aa1c64958.jar" />
+    </item>
+    <item
+        jar="/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-06ebb1ba0fa3dbd38981e86c54babd67106db773.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-df49411d04724e30e3bd5ba8f534809a03bef32c.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-9bcfe51f6c69e9b8105a3e4340a60eca29146238.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-5adb9184bb91f038ce7bd747d67d15f2b5d39081.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-0a331b5db8504e95ea1cbb2bf75872ea039a4c63.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f295dc7c30939b7bf9c709e3524914d15125cf3b.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-74470c6a1e4f6cb0ca18899e200b1ed712fc85e5.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-787d293e7a08cacc93d4b8798421d5138896e8db.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.akexorcist/RoundCornerProgressBar/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="17267d6813298019bcfe7639497f8c5c72f54a21">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-be66f9add66d46660041b7061d4076d255b2516c.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.akexorcist/RoundCornerProgressBar/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="17267d6813298019bcfe7639497f8c5c72f54a21">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-420972c277ec8dfb5e667e9c2d8b14bfce2319a0.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-31c67bc003de5afa6f411271ae6ee384efaca835.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.facebook.android/facebook/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="722161acd3a07e5a3510212fed43c0978080cd1a">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-b86d68d2d7799729f856dc9e0275313a9c946472.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-22f567148401a5588e031be17f73f998b562bf3b.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-eb7c3fe27c8c6ff94377218fff9af21943be356d.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0-750887087bb2ea0da5e080e0eb0afbd7da2f825e.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library-circular/1.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="59b836dcf08d8345b8d0b3c1b32e794add5e1bc1">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-185d2bcc3d9ac4e6d77b8ed67a7b00f810c1f0b8.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.facebook.android/facebook/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="4f659552831c8b804f1c1fe3452f49b435da5b3b">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-91d24ab95b036fd9cc8f343133660ed9e3f4dfff.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-9ce6a22ae8726060a0b4a393d37571afc6d23918.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-cards/2.0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="d851788f6c23d14aa5fa8fbfd6d1b17725ad44c5">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-ea955d06044aaa65f09dad5316e997f3cf5f5768.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-afffb3b12f9ef4038487c18dc48e4b8b4cf88b4e.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/libs/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-b00845a4377867bcc9eb82e00ab1c117eea84360.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-90a379eafd13da51a8141472c55b8c72c6789b31.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/RewIt_test/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="62119e120a08d08528ce0305ee88ee3c467adb97">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-d2864177db00763c7016a050b0ee66d7e5818a50.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-c6f95cb7ffebf2ba76843fba4476b12a0f1b6f56.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.0/6a21277d9bebe267b7ddee028b241eebc756c040/google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.0-6ccc22206bbf6932591421e56cc4f6d325d248ed.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-39a17d2221aedbcead43fc382a67ebc9ea200c4f.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-core/2.0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="81d6467247ced8a5d51f8ff73a6595d517eddba6">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/classes-7a1aa9e62e4abf1148e31819da0534482a4ffb5b.jar" />
+    </item>
+    <item
+        jar="/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-572bb7091d71ff72744a6bb79167c4b9262fe6c2.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-5ec1f541ff1b7890cab94f52e53f8642f731f539.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library-circular/1.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="59b836dcf08d8345b8d0b3c1b32e794add5e1bc1">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-6fb16b437e23868ae288257e85ffa7ca09035516.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.19.0-9ce1d9726f60cd31df381b5e69fbd76ba7c4ee21.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="c0a440d192520489409ce04092bd2c49096d4f9a">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-acb1ed7fbc905af41fbfb564579a3bc9b907a143.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.19.0-5075b4fb35f9b00fd44a9f9065265eeddd0b9986.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Domy/Desktop/Android_studio/RewIt/app/build/intermediates/pre-dexed/debug/library-2.4.0-dcb8443a45bb34c66f50ac863354b5c64a18eec1.jar" />
+    </item>
+    <item
+        jar="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/Domy/Desktop/RewIt_test/app/build/intermediates/pre-dexed/debug/classes-78833f1d132640f23f66cb4c9822837576386736.jar" />
+    </item>
+
+</items>
